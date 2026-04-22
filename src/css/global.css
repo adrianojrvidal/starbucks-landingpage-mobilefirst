@@ -9,6 +9,11 @@ Estilo Geral
   font-family: "Poppins", sans-serif;
 }
 
+#container {
+  background-image: url('/src/images/background-mobile.png');
+  background-size: contain;
+}
+
 .btn {
   padding: 10px 20px;
   border: none;
@@ -33,4 +38,15 @@ Estilo Geral
 
 .btn-mobile {
   font-size: 1.5rem;
+}
+
+.btn-outlined {
+  background-color: transparent;
+  color: var(--color-primary-1);
+  border: 2px solid var(--color-primary-1);
+
+  &:hover {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-0);
+  }
 }
