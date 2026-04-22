@@ -1,29 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Starbucks Landing Page</title>
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="/src/css/main.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar">
+        <img src="/src/images/logo-starbucks.png" alt="Logo" class="logo" />
 
-</head>
-<body>
-    
+        <button class="btn btn-mobile">
+          <i class="fa-solid fa-bars"></i>
+        </button>
 
+        <ul id="nav-links">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#trending">Em alta</a>
+          </li>
+          <li>
+            <a href="#about">Sobre nós</a>
+          </li>
+          <li>
+            <a href="#products">Novidades</a>
+          </li>
+        </ul>
 
+        <button class="btn btn-default">Contatar</button>
+      </nav>
+    </header>
 
-
-
-
-
-
-
-    <!-- javascript -->
-    <script src="/src/script.js"></script>
-</body>
+    <!-- Javascript -->
+    <script src="/src/js/script.js"></script>
+  </body>
 </html>
