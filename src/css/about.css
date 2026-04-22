@@ -8,7 +8,7 @@ ABOUT SECTION
   flex-direction: column;
   align-items: center;
   background-color: var(--color-primary-1);
-  background-image: url("/src/images/about/bg-about.png");
+  background-image: url("../images/about/bg-about.png");
   min-height: calc(100vh - 96px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 	border-radius: 32px;

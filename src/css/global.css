@@ -10,13 +10,13 @@ Estilo Geral
 }
 
 #container {
-  background-image: url('/src/images/background-mobile.png');
+  background-image: url('../images/background-mobile.png');
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   #container {
-    background-image: url('/src/images/background-desktop.png');
+    background-image: url('../images/background-desktop.png');
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;

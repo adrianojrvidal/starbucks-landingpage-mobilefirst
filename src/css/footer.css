@@ -1,0 +1,29 @@
+/* 
+FOOTER 
+*/
+
+footer {
+  background-color: var(--color-primary-1);
+  color: var(--color-neutral-0);
+  text-align: center;
+  padding: 12px;
+
+  p {
+    font-size: 1rem;
+
+    span {
+      color: var(--color-primary-3);
+    }
+  }
+
+  a {
+    color: var(--color-neutral-2);
+    text-decoration: none;
+
+    &:hover {
+      transition: all 0.3s ease;
+      color: var(--color-secondary-1);
+      text-decoration: underline;
+    }
+  }
+}
